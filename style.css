@@ -23,12 +23,14 @@ h2 {
 form {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  margin-left: 1rem;
+  padding: 5px;
 }
 
 input {
   margin-top: 1rem;
   width: 30vh;
+  
 }
 
 label {
@@ -36,11 +38,18 @@ label {
   top: 1rem;
 }
 
-
 article{
-  
+    display: inline-block;
 }
 
-.art2 {
-  border-top: 1px solid black;
+
+select{
+    margin-top: 2rem;
 }
+
+
+
+
+
+
+
