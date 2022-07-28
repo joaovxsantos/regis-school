@@ -30,7 +30,6 @@ form {
 input {
   margin-top: 1rem;
   width: 30vh;
-  
 }
 
 label {
@@ -38,52 +37,46 @@ label {
   top: 1rem;
 }
 
-article{
+article {
   display: inline-block;
 }
 
-
-select{
-    margin-top: 2rem;
-}
-
-[type="radio"]{
-    margin-top: 1px;
-}
-
-[type="checkbox"]{
-    margin-top: 1px;
-}
-
-
-/* [type="submit"]{
-  display: block;
-  margin: auto;
-} */
-
-p{
+select {
   margin-top: 2rem;
 }
 
+[type="radio"] {
+  margin-top: 1px;
+}
 
-.container{
+[type="checkbox"] {
+  margin-top: 1px;
+}
+
+#h1 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+p {
+  margin-top: 2rem;
+}
+
+.container {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  background-color: cyan;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-footer{
+footer {
   position: absolute;
   left: 50%;
   top: 100%;
   transform: translateX(-50%);
-  
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: cyan;
+  padding: 1rem;
+  border-radius: 15px;
 }
-
-
-
-
-
-
-
-
