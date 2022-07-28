@@ -39,7 +39,7 @@ label {
 }
 
 article{
-    display: inline-block;
+  display: inline-block;
 }
 
 
@@ -54,6 +54,32 @@ select{
 [type="checkbox"]{
     margin-top: 1px;
 }
+
+
+/* [type="submit"]{
+  display: block;
+  margin: auto;
+} */
+
+p{
+  margin-top: 2rem;
+}
+
+
+.container{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+footer{
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  
+}
+
 
 
 
