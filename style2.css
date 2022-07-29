@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3, p, img{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+.first-archive{
+    width: 40vh;
+    
+}
+
+
+footer{
+    margin-top: 3rem;
+}
+
+#reserv{
+    text-align: center;
+}
+
+
+
+
+
