@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -13,77 +13,54 @@
     <header>
         <nav>
             <ul>
-                <li>Inicio</li>
-                <li>Quem somos</li>
-                <li>Localização</li>
-                <li>Contato</li>
-
+                <li>Home</li>
+                <li>Registration</li>
+                <li>Headquarters</li>
+                <li>Contact</li>
             </ul>
         </nav>
     </header>
-    <section>
 
-        <header id="h1">
-            <h1>Form Register</h1>
-            <h2>Pre-registration</h2>
-
-        </header>
-        <div class="container">
-            <article id="principal">
-                <article>
-                    <form method="post">
-                        <h4>Personal Data</h4>
-                        <input type="text" placeholder="First name">
-                        <label>Birth</label>
-                        <input type="date">
-                        <input type="text" placeholder="Mother name">
-                        <input type="text" placeholder="Father name">
-                        <input type="number" placeholder="Cellphone">
-                        <input type="e-mail" placeholder="E-mail">
-
-                    </form>
-                </article>
-                <article class="art2">
-
-                    <form action="">
-                        <p>Registration Information</p>
-                        <input type="text">
-                        <select>
-                            <option value="1ano">1 ano</option>
-                            <option value="1ano">2 ano</option>
-                            <option value="1ano">3 ano</option>
-                            <option value="1ano">4 ano</option>
-                            <option value="1ano">5 ano</option>
-                            <option value="1ano">6 ano</option>
-                            <option value="1ano">7 ano</option>
-                            <option value="1ano">8 ano</option>
-                            <option value="1ano">9 ano</option>
-                        </select>
-
-
-                        <label class="lb1">Manhã</label><input type="radio" name="turn" value="op1">
-                        <label class="lb1">Tarde</label><input type="radio" name="turn" value="op2">
-
-                        <p>Atividades Extracurriculares</p>
-                        <label>Informática</label><input type="checkbox">
-                        <label>Natação</label><input type="checkbox">
-                        <label>Basquete</label><input type="checkbox">
-                        <label>Inglês</label><input type="checkbox">
-                        <label>Espanhol</label><input type="checkbox">
-                        <footer>
-                            <input type="submit">
-                        </footer>
-                    </form>
-                </article>
-
-            </article>
+    <h1>Pré Registration</h1>
+    <h2>Personal data</h2>
+    <main>
+        <section class="first-sec">
+            <div class="first-form">
+                <form id="f1">
+                    <label>Name </label><input type="text" class="ipt1">
+                    <label>Age </label><input type="number" class="ipt1">
+                    <label>Birthday </label><input type="date" class="ipt1">
+                    <label>E-mail</label> <input type="email" class="ipt1">
+                    <label>CellPhone</label> <input type="number" class="ipt1">
+                </form>
+            </div>
 
 
 
+            <div class="second-form">
+                <h2>Enrollment information</h2>
+                <form>
+                    <p>Turn</p>
+                    Morning<input type="radio" name="turn">
+                    Afternoon<input type="radio" name="turn">
 
-    </section>
+                    <p>Atividades Extracurriculares:</p>
+                    Informática<input type="checkbox">
+                    Música<input type="checkbox">
+                    Judô<input type="checkbox">
+                    Pintura<input type="checkbox">
 
-    </div>
+                    <input type="submit">
+                </form>
+            </div>
+              
+        </section>
+    </main>
+
+
+    <footer>
+        <p>Developed by João V.</p>
+    </footer>
 </body>
 
 </html>
