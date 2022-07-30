@@ -27,7 +27,7 @@
         <section class="first-sec">
             <div class="first-form">
                 <form id="f1">
-                    <label>Name </label><input type="text" class="ipt1">
+                    <label>Name </label><input type="text" id="ipt1" class="ipt1">
                     <label>Age </label><input type="number" class="ipt1">
                     <label>Birthday </label><input type="date" class="ipt1">
                     <label>E-mail</label> <input type="email" class="ipt1">
@@ -38,29 +38,33 @@
 
 
             <div class="second-form">
-                <h2>Enrollment information</h2>
-                <form>
-                    <p>Turn</p>
-                    Morning<input type="radio" name="turn">
-                    Afternoon<input type="radio" name="turn">
+                <form id="f2">
+                    <h2>Enrollment information</h2>
 
-                    <p>Atividades Extracurriculares:</p>
-                    Informática<input type="checkbox">
-                    Música<input type="checkbox">
-                    Judô<input type="checkbox">
-                    Pintura<input type="checkbox">
+                    <p class="p1">Turn</p>
+                    <label>Morning</label><input type="radio" name="turn">
+                    <label>Afternoon</label><input type="radio" name="turn">
 
-                    <input type="submit">
+                    <p class="p1">Atividades Extracurriculares:</p>
+                    <label>Tecnologic</label><input type="checkbox">
+                    <label>Sport</label><input type="checkbox">
+                    <label>Fight</label><input type="checkbox">
+                    <label>Music </label><input type="checkbox">
+
+                    <input type="submit" value="Submit" id="submit">
                 </form>
             </div>
-              
+
         </section>
     </main>
 
 
     <footer>
-        <p>Developed by João V.</p>
+        <p id="p2">Developed by <a href="https://github.com/joaovxsantos">João V.</a></p>
     </footer>
+
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
